@@ -1,0 +1,101 @@
+
+html {
+  font-family:arial,sans-serif;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+h2, h3, h4, h5 {
+  color: #505050;
+}
+
+h2 {
+  padding-left: 30px;
+  border-bottom: 1px solid #000;
+}
+
+h2 span {
+  border-bottom: 0.2em solid #000;
+}
+
+
+button {
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: smaller;
+}
+
+.game {
+  border: 2px solid #CCCCCC;
+  margin:auto;
+  width: 100%;
+  height: 100%;
+}
+
+span.game-info {
+  font-style: oblique;
+  color: gray;
+}
+
+textarea.game-noedit {
+  border: 2px solid #73A6FF;
+}
+
+.game-user {
+  color: #DD7200;
+  font-weight: bold;
+  padding-right: 0.2em;
+}
+
+.game-users label {
+  margin-left: 0.2em;
+}
+
+.game-self {
+  color: #B42600;
+  font-weight: bold;
+  padding-right: 0.2em;
+}
+
+.game-current {
+  background-color: #f8f388;
+  padding-right: 0.2em;
+}
+
+.game-highlight {
+  font-weight: bold;
+}
+
+.game-field {
+  margin: 0px 1px;
+}
+
+.game-status {
+  height: 30px;
+}
+
+.game-users {
+  width: 12ex;
+}
+
+.game-cell {
+  width:10px;
+  height:10px;
+  margin: -3px;
+  padding: 5px;
+  visibility:visible;
+}
+
+.game-users div {
+  margin: 3px 3px 3px 6px;
+}
+
+.game-users div .game-self {
+  font-weight: bold;
+}
+
+
+

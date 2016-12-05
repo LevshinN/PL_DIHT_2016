@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<messages>
+  <message id="introduction">
+
+    <h2>
+      <span>Super крестики-нолики-цифорки 2k16</span>
+    </h2>
+  </message>
+
+  <message id="serverpushwarning">Note, you do not have JavaScript and this chat will have degraded functionality</message>
+
+
+  <message id="join-msg.template">
+    <span class='chat-info'>You are joining as ${name}.</span>
+  </message>
+
+</messages>
+
