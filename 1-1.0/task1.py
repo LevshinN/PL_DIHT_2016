@@ -70,7 +70,10 @@ def execute_cells(table):
     for i, _ in enumerate(table):
         for j, cell in enumerate(table[i]):
             if cell[0] == "=":
-                table[i][j] = eval(cell[1:], globals(), locals())
+                try:
+                    table[i][j] = eval(cell[1:], globals(), locals())
+                except:
+                    table[i][j] = 'ERROR'
 
 
 def save_table(table, dialect):
@@ -79,7 +82,6 @@ def save_table(table, dialect):
     writer = csv.writer(result_file, dialect)
     for row in table:
         writer.writerow(row)
-        result_file.write("\n")
     result_file.close()
 
 
